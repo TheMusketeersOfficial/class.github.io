@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 #fullContainer {
     width:100%;
 }
@@ -6,10 +10,11 @@
     width: 40%;
 }
 #goButton {
+    color: lime;
     margin: auto;
     width: 100%;
-    border: 2px darkgray double;
-    background: lightgray;
+    border: 2px lime double;
+    background: rgb(0, 0, 0);
     font-size: 30px;
 }
 #sortContainer {
@@ -20,7 +25,7 @@
 .subContainer {
     display: inline-block;
     width:45%;
-    border: 4px forestgreen groove;
+    border: 4px lime groove;
     margin-top: 1.25%;
 }
 #bubbleArea {
